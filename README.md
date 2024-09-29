@@ -15,6 +15,7 @@ The geolocation data in this project enables mapping the exact locations of crim
 
 ## Project Structure
 ### Data
+- **Source**: [São Paulo Public Security Secretariat Data](https://www.ssp.sp.gov.br/estatistica/consultas)
 - **Excel to CSV conversion**: The crime data is provided in `.xlsx` format. For efficiency, it is converted to `.csv` to speed up processing.
 - **Data Fields**: 
   - `CIDADE`: City where the crime occurred.
