@@ -1,7 +1,3 @@
-Your text is mostly well-written, but here are a few corrections and suggestions to enhance clarity and ensure accuracy:
-
----
-
 # Crime in São Paulo: Geolocation Analysis
 
 ## Overview
