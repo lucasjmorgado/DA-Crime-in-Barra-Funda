@@ -81,5 +81,3 @@ This analysis provides a visual representation of crime occurrences in **São Pa
 1. Corrected "Sao Paulo" to "São Paulo" consistently.
 2. Changed "to check the code" to "checking the code" for better flow.
 3. Minor punctuation adjustments for clarity. 
-
-Let me know if you need any more help!
