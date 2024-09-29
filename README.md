@@ -43,6 +43,12 @@ We use **Folium**, a Python library for geospatial data visualization, to create
 #### 2. **Theft Map (Barra Funda)**
    - Similar to the robbery map, marker clusters and heatmaps are used to visualize theft locations.
 
+#### Examples:
+  - You can check this and other maps interactively using this link: [Link](https://nbviewer.org/github/lucasjmorgado/DA-Crime-in-Barra-Funda/blob/main/Crime_in_Sao_Paulo.ipynb)
+
+![Heatmap](https://raw.githubusercontent.com/lucasjmorgado/DA-Crime-in-Barra-Funda/refs/heads/main/heatmap_barrafunda_roubos.png)
+![Cluster](https://raw.githubusercontent.com/lucasjmorgado/DA-Crime-in-Barra-Funda/refs/heads/main/MarkerCluster_barrafunda_roubos.png)
+
 ## How to Run
 1. Convert the raw Excel data to CSV using the provided script:
    ```python
