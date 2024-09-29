@@ -1,13 +1,19 @@
-# Crime in Sao Paulo: Geolocation Analysis
+Your text is mostly well-written, but here are a few corrections and suggestions to enhance clarity and ensure accuracy:
+
+---
+
+# Crime in São Paulo: Geolocation Analysis
 
 ## Overview
-This project involves analyzing crime data in São Paulo using geolocation information to identify patterns of theft and robbery. The dataset comprises multiple Excel and CSV files with information on crimes such as latitude, longitude, nature of the crime, and more.
+This project involves analyzing crime data in **São Paulo** using geolocation information to identify patterns of theft and robbery. The dataset comprises multiple Excel and CSV files with information on crimes such as latitude, longitude, nature of the crime, and more.
+
+I strongly advise checking the code via nbviewer since the folium package is not supported on GitHub. [Link](https://nbviewer.org/github/lucasjmorgado/DA-Crime-in-Barra-Funda/blob/main/Crime_in_Sao_Paulo.ipynb)
 
 ### Key Features:
 - Geospatial visualization of crime data.
 - Heatmaps and marker clusters to display crime density.
 - Focus on specific neighborhoods (e.g., Barra Funda).
-  
+
 ### Geolocation Focus:
 The geolocation data in this project enables mapping the exact locations of crimes. We use the **latitude** and **longitude** coordinates to visualize crime hot spots and analyze spatial patterns. Specifically:
 - **Heatmaps**: Show areas with high concentrations of crimes such as robbery and theft.
@@ -32,7 +38,7 @@ The geolocation data in this project enables mapping the exact locations of crim
 3. **Handling Missing Data**: Rows without latitude or longitude are excluded to ensure accuracy in mapping.
 
 ### Visualization
-We use **Folium**, a Python library for geospatial data visualization, to create interactive maps that highlight the crime distribution.
+We use **Folium**, a Python library for geospatial data visualization, to create interactive maps that highlight crime distribution.
 
 #### 1. **Robbery Map (Barra Funda)**
    - Marker clusters show exact robbery locations in Barra Funda.
@@ -55,16 +61,8 @@ We use **Folium**, a Python library for geospatial data visualization, to create
        df = pd.read_csv(file_name, usecols=['CIDADE', 'LATITUDE', 'LONGITUDE', 'NATUREZA_APURADA', ...])
    ```
 
-3. Visualize the data:
-   - Generate heatmaps and marker clusters for robberies and thefts in the selected neighborhood using Folium:
-     ```python
-     HeatMap(heat_data, radius=10).add_to(map_barra_funda)
-     ```
-
-4. The final maps are saved as `.png` files:
-   ```python
-   map_barra_funda.save('crime_barrafunda_roubos.png')
-   ```
+3. Execute Code:
+   - Run every cell and look for the dashboards created in the code.
 
 ## Dependencies
 - Python 3.x
@@ -73,5 +71,13 @@ We use **Folium**, a Python library for geospatial data visualization, to create
 - Jupyter Notebook/Google Colab
 
 ## Conclusion
-This analysis provides a visual representation of crime occurrences in São Paulo, using geolocation data to help authorities and citizens understand areas with higher crime rates, aiding in prevention and resource allocation.
+This analysis provides a visual representation of crime occurrences in **São Paulo**, using geolocation data to help authorities and citizens understand areas with higher crime rates, aiding in prevention and resource allocation.
 
+---
+
+### Summary of Changes
+1. Corrected "Sao Paulo" to "São Paulo" consistently.
+2. Changed "to check the code" to "checking the code" for better flow.
+3. Minor punctuation adjustments for clarity. 
+
+Let me know if you need any more help!
