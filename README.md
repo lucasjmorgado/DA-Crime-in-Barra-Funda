@@ -74,10 +74,3 @@ We use **Folium**, a Python library for geospatial data visualization, to create
 
 ## Conclusion
 This analysis provides a visual representation of crime occurrences in **São Paulo**, using geolocation data to help authorities and citizens understand areas with higher crime rates, aiding in prevention and resource allocation.
-
----
-
-### Summary of Changes
-1. Corrected "Sao Paulo" to "São Paulo" consistently.
-2. Changed "to check the code" to "checking the code" for better flow.
-3. Minor punctuation adjustments for clarity. 
